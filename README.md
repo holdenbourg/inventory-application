@@ -5,13 +5,13 @@ I was tasked with creating an inventory application that allowed users to log in
 This project required a login screen, register screen, login/register functionality (saving account inforamtion for later verification on login), inventory screen with a gridview composed of custom grid items that allowed for item name and quantity with the ability to increment and decrement the quantity or remove the item all together, an add item screen that would add the given item and name into teh database for later use on the stated inventory screen, and a notifdications sstem that would notify the device when an irtem's quantoty has reached zero. This UI kept users in mind by making it as easy to navigate as possible, all the while not compromising functionality or the project's original structure. I would say these designs were highly successful and accomplished what I set out to do from the start.
 
 # How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
-
+I relied heavily on modeling the program after the design document I created after reading the requirements for the project. The biggest challenge I faced was incorporating custom grid items into the grid. Had to do some research on how to implement that, but once I got it figured out, it was smooth sailing from there. Nothing I couldn't figure out with a simple Google search; Stack Overflow is insanely helpful. Applying these strategies to the future would be helpful in my journey. Using the design document or customer requirements as a blueprint for my program will help me stay on task and not do anything outside the scope of the assigned project.
 
 # How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
-
+I tested the code by using the emulator inside Android Studio and going through every possible route an actual user would go through. Doing this allowed me to make sure my code was bug-proof, and I'd have no issues pushing this code to production. The testing process is just as important as any other process in the pipeline to creating a project, as you could have a whole system programmed, but you can't put it online until you know there are no bugs. Especially when you start to design systems that handle important user data and/or payment processes.
 
 # Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
-
+Like I stated previously, my biggest challenge would have been with the grid and getting custom grid items that contained the item's name, quantity, + and - buttons to increase or decrease the quantity, and a remove button to remove the given item from the list. This was the most challenging part (took the most research to solve). Other than that, setting up the push notifications was another challenge I faced during the development part of the process, but it was relatively easier to fix than the grid/grid-item issue
 
 # In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
-
+Not to be a broken record, but the grid was probably the best display of my skill in both programming and overcoming challenges put forth by a lack of knowledge/experience. Overcoming that hurdle was truly satisfying for me and well worth it in the end when the whole app worked just as planned from the beginning.
